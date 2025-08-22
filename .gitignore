@@ -1,0 +1,68 @@
+# --- IntelliJ IDEA ---
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# --- Maven ---
+target/
+pom.xml.versionsBackup
+dependency-reduced-pom.xml
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# --- Java ---
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# --- Lock files ---
+*.lck
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- Eclipse ---
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+# --- NetBeans ---
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# --- VS Code ---
+.vscode/
+
+# --- Gradle ---
+.gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+gradle/
+gradlew
+gradlew.bat
+
+# --- Logs and Temp Files ---
+*.log
+*.tmp
+temp/
+
